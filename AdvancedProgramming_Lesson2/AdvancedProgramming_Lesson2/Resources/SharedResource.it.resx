@@ -123,6 +123,9 @@
   <data name="Confirmation" xml:space="preserve">
     <value>Ne sei sicuro?</value>
   </data>
+  <data name="Date" xml:space="preserve">
+    <value>data di rilascio</value>
+  </data>
   <data name="Delete" xml:space="preserve">
     <value>elimina</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Edit" xml:space="preserve">
     <value>modificare</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Sbagliato, controlla la correttezza dei dati</value>
   </data>
   <data name="Genre" xml:space="preserve">
     <value>genere</value>
@@ -164,9 +170,6 @@
   </data>
   <data name="Privacy Policy Content" xml:space="preserve">
     <value>segreto</value>
-  </data>
-  <data name="Release date" xml:space="preserve">
-    <value>data di rilascio</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>salva</value>

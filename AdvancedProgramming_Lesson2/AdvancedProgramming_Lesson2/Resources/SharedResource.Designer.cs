@@ -79,6 +79,15 @@ namespace AdvancedProgramming_Lesson2.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Release date.
+        /// </summary>
+        public static string Date {
+            get {
+                return ResourceManager.GetString("Date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Delete.
         /// </summary>
         public static string Delete {
@@ -102,6 +111,15 @@ namespace AdvancedProgramming_Lesson2.Resources {
         public static string Edit {
             get {
                 return ResourceManager.GetString("Edit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WRONG! TRY AGAIN .
+        /// </summary>
+        public static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
             }
         }
         
@@ -201,15 +219,6 @@ namespace AdvancedProgramming_Lesson2.Resources {
         public static string Privacy_Policy_Content {
             get {
                 return ResourceManager.GetString("Privacy Policy Content", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Release date.
-        /// </summary>
-        public static string Release_date {
-            get {
-                return ResourceManager.GetString("Release date", resourceCulture);
             }
         }
         
