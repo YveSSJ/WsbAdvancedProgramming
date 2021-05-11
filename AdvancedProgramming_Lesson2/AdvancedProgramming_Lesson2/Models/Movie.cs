@@ -5,10 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace AdvancedProgramming_Lesson2.Models
+    
 {
     public class Movie
     {
-        [Display(Name = "Identyfikator")]
+        [Display(Name = "")]
         public int Id { get; set; }
         [Display(Name = "Tytuł")]
         public string Title { get; set; }

@@ -35,7 +35,7 @@ namespace AdvancedProgramming_Lesson2
             services.Configure<RequestLocalizationOptions>(options =>
             {
                 options.SetDefaultCulture("en-Us");
-                options.AddSupportedUICultures("en-US", "de-DE", "ja-JP", "pl-PL");
+                options.AddSupportedUICultures("en-US", "de-DE", "it-IT", "pl-PL");
                 options.FallBackToParentUICultures = true;
 
                 options

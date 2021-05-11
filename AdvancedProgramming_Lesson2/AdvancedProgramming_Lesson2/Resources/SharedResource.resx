@@ -120,6 +120,9 @@
   <data name="About" xml:space="preserve">
     <value>About</value>
   </data>
+  <data name="Genre" xml:space="preserve">
+    <value>Genre</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
@@ -129,6 +132,9 @@
   <data name="Learn Start" xml:space="preserve">
     <value>Learn</value>
   </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
   <data name="Privacy" xml:space="preserve">
     <value>Privacy</value>
   </data>
@@ -137,5 +143,14 @@
   </data>
   <data name="Privacy Policy Content" xml:space="preserve">
     <value>This is a secret</value>
+  </data>
+  <data name="Release date" xml:space="preserve">
+    <value>Release date</value>
+  </data>
+  <data name="Tab" xml:space="preserve">
+    <value>Example app for students</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
   </data>
 </root>
