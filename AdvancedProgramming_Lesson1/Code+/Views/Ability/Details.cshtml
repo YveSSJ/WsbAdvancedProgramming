@@ -1,0 +1,23 @@
+﻿@model Code_.Models.Ability
+
+@{
+    ViewData["Title"] = "Szczegóły umiejętności";
+}
+
+<h1 class="margin">Szczegóły umiejętności</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edytuj</a> |
+    <a asp-action="Index">Powrót do listy</a>
+</div>

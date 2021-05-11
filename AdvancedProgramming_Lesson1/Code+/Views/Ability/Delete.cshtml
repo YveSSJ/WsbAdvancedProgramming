@@ -1,0 +1,26 @@
+﻿@model Code_.Models.Ability
+
+@{
+    ViewData["Title"] = "Zapominanie umiejętności";
+}
+
+<h1 class="margin">Zapomnij umiejętność</h1>
+
+<h3>Czy napewno chcesz zapomnieć?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Zapomnij" class="btn btn-danger" /> |
+        <a asp-action="Index">Powrót do listy</a>
+    </form>
+</div>
