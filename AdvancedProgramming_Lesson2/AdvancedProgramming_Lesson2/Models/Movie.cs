@@ -3,23 +3,24 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using AdvancedProgramming_Lesson2.Resources;
 
 namespace AdvancedProgramming_Lesson2.Models
     
 {
     public class Movie
     {
-        [Display(Name = "")]
+        
         public int Id { get; set; }
-        [Display(Name = "Tytuł")]
+        [LocalizedDisplayName("Title", NameResourceType = typeof(Resources.SharedResource))]
         public string Title { get; set; }
 
+        [LocalizedDisplayName("Release date", NameResourceType = typeof(Resources.SharedResource))]
         [DataType(DataType.Date)]
-        [Display(Name = "Data Wypuszczenia")]
         public DateTime ReleaseDate { get; set; }
-        [Display(Name = "Rodzaj")]
+        [LocalizedDisplayName("Genre", NameResourceType = typeof(Resources.SharedResource))]
         public string Genre { get; set; }
-        [Display(Name = "Cena")]
+        [LocalizedDisplayName("Price", NameResourceType = typeof(Resources.SharedResource))]
         public decimal Price { get; set; }
     }
 }

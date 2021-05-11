@@ -22,7 +22,7 @@ namespace AdvancedProgramming_Lesson2.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class SharedResource {
+    public class SharedResource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace AdvancedProgramming_Lesson2.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AdvancedProgramming_Lesson2.Resources.SharedResource", typeof(SharedResource).Assembly);
@@ -51,7 +51,7 @@ namespace AdvancedProgramming_Lesson2.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,25 +63,70 @@ namespace AdvancedProgramming_Lesson2.Resources {
         /// <summary>
         ///   Looks up a localized string similar to About.
         /// </summary>
-        internal static string About {
+        public static string About {
             get {
                 return ResourceManager.GetString("About", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Are you sure about it?.
+        /// </summary>
+        public static string Confirmation {
+            get {
+                return ResourceManager.GetString("Confirmation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete.
+        /// </summary>
+        public static string Delete {
+            get {
+                return ResourceManager.GetString("Delete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Details.
+        /// </summary>
+        public static string Details {
+            get {
+                return ResourceManager.GetString("Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit.
+        /// </summary>
+        public static string Edit {
+            get {
+                return ResourceManager.GetString("Edit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Genre.
         /// </summary>
-        internal static string Genre {
+        public static string Genre {
             get {
                 return ResourceManager.GetString("Genre", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Go back.
+        /// </summary>
+        public static string Go_Back {
+            get {
+                return ResourceManager.GetString("Go Back", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
-        internal static string Home {
+        public static string Home {
             get {
                 return ResourceManager.GetString("Home", resourceCulture);
             }
@@ -90,7 +135,7 @@ namespace AdvancedProgramming_Lesson2.Resources {
         /// <summary>
         ///   Looks up a localized string similar to about creation of mvc .net core apps.
         /// </summary>
-        internal static string Learn_End {
+        public static string Learn_End {
             get {
                 return ResourceManager.GetString("Learn End", resourceCulture);
             }
@@ -99,16 +144,34 @@ namespace AdvancedProgramming_Lesson2.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Learn.
         /// </summary>
-        internal static string Learn_Start {
+        public static string Learn_Start {
             get {
                 return ResourceManager.GetString("Learn Start", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Movies.
+        /// </summary>
+        public static string Movies {
+            get {
+                return ResourceManager.GetString("Movies", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New.
+        /// </summary>
+        public static string New {
+            get {
+                return ResourceManager.GetString("New", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Price.
         /// </summary>
-        internal static string Price {
+        public static string Price {
             get {
                 return ResourceManager.GetString("Price", resourceCulture);
             }
@@ -117,7 +180,7 @@ namespace AdvancedProgramming_Lesson2.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Privacy.
         /// </summary>
-        internal static string Privacy {
+        public static string Privacy {
             get {
                 return ResourceManager.GetString("Privacy", resourceCulture);
             }
@@ -126,7 +189,7 @@ namespace AdvancedProgramming_Lesson2.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Privacy Policy.
         /// </summary>
-        internal static string Privacy_Policy {
+        public static string Privacy_Policy {
             get {
                 return ResourceManager.GetString("Privacy Policy", resourceCulture);
             }
@@ -135,7 +198,7 @@ namespace AdvancedProgramming_Lesson2.Resources {
         /// <summary>
         ///   Looks up a localized string similar to This is a secret.
         /// </summary>
-        internal static string Privacy_Policy_Content {
+        public static string Privacy_Policy_Content {
             get {
                 return ResourceManager.GetString("Privacy Policy Content", resourceCulture);
             }
@@ -144,16 +207,25 @@ namespace AdvancedProgramming_Lesson2.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Release date.
         /// </summary>
-        internal static string Release_date {
+        public static string Release_date {
             get {
                 return ResourceManager.GetString("Release date", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string Save {
+            get {
+                return ResourceManager.GetString("Save", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Example app for students.
         /// </summary>
-        internal static string Tab {
+        public static string Tab {
             get {
                 return ResourceManager.GetString("Tab", resourceCulture);
             }
@@ -162,7 +234,7 @@ namespace AdvancedProgramming_Lesson2.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Title.
         /// </summary>
-        internal static string Title {
+        public static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
             }

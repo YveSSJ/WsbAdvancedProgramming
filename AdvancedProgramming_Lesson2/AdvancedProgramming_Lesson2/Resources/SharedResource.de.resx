@@ -120,8 +120,23 @@
   <data name="About" xml:space="preserve">
     <value>Über</value>
   </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Chcesz tego?</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>löschen</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Einzelheiten</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>bearbeiten</value>
+  </data>
   <data name="Genre" xml:space="preserve">
     <value>genre</value>
+  </data>
+  <data name="Go Back" xml:space="preserve">
+    <value>geh zurück</value>
   </data>
   <data name="Home" xml:space="preserve">
     <value>Zuhause</value>
@@ -131,6 +146,12 @@
   </data>
   <data name="Learn Start" xml:space="preserve">
     <value>Lernen</value>
+  </data>
+  <data name="Movies" xml:space="preserve">
+    <value>filme</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>neu</value>
   </data>
   <data name="Price" xml:space="preserve">
     <value>preis</value>
@@ -146,6 +167,12 @@
   </data>
   <data name="Release date" xml:space="preserve">
     <value>Veröffentlichungsdatum</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>speichern</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Bist du dir sicher?</value>
   </data>
   <data name="Tab" xml:space="preserve">
     <value>Beispiel App für Studenten</value>

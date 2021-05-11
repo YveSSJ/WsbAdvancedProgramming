@@ -120,8 +120,23 @@
   <data name="About" xml:space="preserve">
     <value>O mnie</value>
   </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Chcesz tego?</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Szczegóły</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edytuj</value>
+  </data>
   <data name="Genre" xml:space="preserve">
     <value>Gatunek</value>
+  </data>
+  <data name="Go Back" xml:space="preserve">
+    <value>Powrót</value>
   </data>
   <data name="Home" xml:space="preserve">
     <value>Start</value>
@@ -131,6 +146,12 @@
   </data>
   <data name="Learn Start" xml:space="preserve">
     <value>Naucz się </value>
+  </data>
+  <data name="Movies" xml:space="preserve">
+    <value>Filmy</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nowy</value>
   </data>
   <data name="Price" xml:space="preserve">
     <value>Cena</value>
@@ -146,6 +167,9 @@
   </data>
   <data name="Release date" xml:space="preserve">
     <value>Data wydania</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Zapisz</value>
   </data>
   <data name="Tab" xml:space="preserve">
     <value>Przykład aplikacji dla studentów</value>
