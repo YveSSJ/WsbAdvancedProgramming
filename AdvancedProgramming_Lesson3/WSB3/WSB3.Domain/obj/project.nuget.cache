@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "uFJSNCKgemMUsfItNQvKS/ozO/L7XWlTn5qtTAtaDz60NKmtpnP4l3aY01FOxOKCdc290mPJcHhkVRQmLW9v7A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\myths\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\myths\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
