@@ -7379,11 +7379,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.API\\WSB3.API.csproj",
+      "projectUniqueName": "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.API\\WSB3.API.csproj",
       "projectName": "WSB3.API",
-      "projectPath": "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.API\\WSB3.API.csproj",
+      "projectPath": "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.API\\WSB3.API.csproj",
       "packagesPath": "C:\\Users\\myths\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.API\\obj\\",
+      "outputPath": "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -7406,11 +7406,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.DB\\WSB3.DB.csproj": {
-              "projectPath": "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.DB\\WSB3.DB.csproj"
+            "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.DB\\WSB3.DB.csproj": {
+              "projectPath": "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.DB\\WSB3.DB.csproj"
             },
-            "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj": {
-              "projectPath": "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj"
+            "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj": {
+              "projectPath": "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj"
             }
           }
         }

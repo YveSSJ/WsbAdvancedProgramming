@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DQ20b//B3KLXUJJXC/7DYVnXB2/f/uWclwjGG2aEDeYK+2tQxl++wZrj+HWcTj/oE0QQW7qT44ZwR/cVpYrASQ==",
+  "dgSpecHash": "GZWEo/gzPkPzjfBgwc9QQPOmxXok/HokuM4vGQjwBhCz6NPaMa4SROcT82ycS/D0lOJnUGyXsnZUBC1OQURinA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.DB\\WSB3.DB.csproj",
+  "projectFilePath": "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.DB\\WSB3.DB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\myths\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\myths\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

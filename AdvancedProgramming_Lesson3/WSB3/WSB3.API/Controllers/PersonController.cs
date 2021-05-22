@@ -18,6 +18,12 @@ namespace WSB3.API.Controllers
         private readonly ApplicationDbContext _context;
         private readonly IConfiguration _configuration;
         private readonly IPersonRepository _personRepository;
+        private static PersonDTO personDTO(PersonEntity personEntity) => new PersonDTO
+        {
+            Id = personEntity.Id,
+            FirstName = personEntity.FirstName,
+            LastName = personEntity.LastName
+        };
 
         public PersonController(ApplicationDbContext context, IPersonRepository personRepository, IConfiguration configuration)
         {
@@ -28,14 +34,16 @@ namespace WSB3.API.Controllers
 
         // GET: api/Person
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<PersonEntity>>> GetPersonEntity()
+        public async Task<ActionResult<IEnumerable<PersonDTO>>> GetPersonEntity()
         {
-            return await _context.PersonEntity.ToListAsync();
+            return await _context.PersonEntity
+                .Select(x => personDTO(x))
+                .ToListAsync();
         }
 
         // GET: api/Person/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<PersonEntity>> GetPersonEntity(long id)
+        public async Task<ActionResult<PersonDTO>> GetPersonEntity(long id)
         {
             var personEntity = await _context.PersonEntity.FindAsync(id);
 
@@ -44,49 +52,54 @@ namespace WSB3.API.Controllers
                 return NotFound();
             }
 
-            return personEntity;
+            return personDTO(personEntity);
         }
 
         // PUT: api/Person/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutPersonEntity(long id, PersonEntity personEntity)
+        public async Task<IActionResult> UpdatePersonEntity(long id, PersonDTO _personDTO)
         {
-            if (id != personEntity.Id)
+            if (id != _personDTO.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(personEntity).State = EntityState.Modified;
+            var personEntity = await _context.PersonEntity.FindAsync(id);
+            if (personEntity == null)
+            {
+                return NotFound();
+            }
+            personEntity.FirstName = _personDTO.FirstName;
+            personEntity.LastName = _personDTO.LastName;
 
             try
             {
                 await _context.SaveChangesAsync();
             }
-            catch (DbUpdateConcurrencyException)
+            catch (DbUpdateConcurrencyException) when (!PersonEntityExists(id))
             {
-                if (!PersonEntityExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return NotFound();
             }
-
             return NoContent();
         }
 
         // POST: api/Person
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<PersonEntity>> PostPersonEntity(PersonEntity personEntity)
+        public async Task<ActionResult<PersonDTO>> CreatePersonEntity(PersonDTO _personDTO)
         {
+            var personEntity = new PersonEntity
+            {
+                FirstName = _personDTO.FirstName,
+                LastName = _personDTO.LastName
+            };
             _context.PersonEntity.Add(personEntity);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetPersonEntity), new { id = personEntity.Id }, personEntity);
+            return CreatedAtAction(
+            nameof(GetPersonEntity),
+            new { id = personEntity.Id },
+            personDTO(personEntity));
         }
 
         // DELETE: api/Person/5

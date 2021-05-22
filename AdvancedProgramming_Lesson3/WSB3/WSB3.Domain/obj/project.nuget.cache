@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uFJSNCKgemMUsfItNQvKS/ozO/L7XWlTn5qtTAtaDz60NKmtpnP4l3aY01FOxOKCdc290mPJcHhkVRQmLW9v7A==",
+  "dgSpecHash": "wiEBdG8tscnH+sr4Ya0iH9y+14Ug61o7XrT4EYIfeMzAn5ru/Jn1VLHH0QMIe1+EY1vgFJAshpTmIs6HcXh+Bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj",
+  "projectFilePath": "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\myths\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "C:\\Users\\myths\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"

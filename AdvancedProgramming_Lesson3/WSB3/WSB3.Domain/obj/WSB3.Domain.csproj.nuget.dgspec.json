@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj": {}
+    "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj": {
+    "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj",
         "projectName": "WSB3.Domain",
-        "projectPath": "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj",
+        "projectPath": "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.Domain\\WSB3.Domain.csproj",
         "packagesPath": "C:\\Users\\myths\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\myths\\Source\\Repos\\WSB3\\WSB3.Domain\\obj\\",
+        "outputPath": "C:\\Users\\myths\\Desktop\\Repos\\WsbAdvancedProgramming\\AdvancedProgramming_Lesson3\\WSB3\\WSB3.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
