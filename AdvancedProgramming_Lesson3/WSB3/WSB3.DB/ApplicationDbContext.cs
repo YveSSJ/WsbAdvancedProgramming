@@ -12,11 +12,12 @@ namespace WSB3.DB
         }
 
         public DbSet<PersonEntity> PersonEntity { get; set; }
-
+        public DbSet<BookEntity> BookEntity { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
             builder.Entity<PersonEntity>();
+            builder.Entity<BookEntity>();
         }
     }
 }

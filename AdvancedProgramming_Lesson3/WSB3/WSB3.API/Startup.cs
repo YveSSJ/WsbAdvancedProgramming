@@ -26,6 +26,7 @@ namespace WSB3.API
 
             services.AddControllers();
             services.AddTransient<IPersonRepository, PersonRepository>();
+            services.AddTransient<IBookRepository, BookRepository>();
 
             services.AddDbContext<ApplicationDbContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("Default")));
         }
