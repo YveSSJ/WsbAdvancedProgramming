@@ -1,11 +1,11 @@
 ﻿const uri = "api/Book";
-let people = null;
+let books = null;
 function getCount(data) {
     const el = $("#counter");
-    let name = "person";
+    let name = "book";
     if (data) {
         if (data > 1) {
-            name = "people";
+            name = "books";
         }
         el.text(data + " " + name);
     } else {
@@ -21,13 +21,14 @@ function getData() {
         url: uri,
         cache: false,
         success: function (data) {
-            const tBody = $("#people");
+            const tBody = $("#books");
             $(tBody).empty();
             getCount(data.length);
             $.each(data, function (key, item) {
                 const tr = $("<tr></tr>")
-                    .append($("<td></td>").text(item.firstName))
-                    .append($("<td></td>").text(item.lastName))
+                    .append($("<td></td>").text(item.title))
+                    .append($("<td></td>").text(item.author))
+                    .append($("<td></td>").text(item.genre))
                     .append(
                         $("<td></td>").append(
                             $("<button>Edit</button>").on("click", function () {
@@ -44,14 +45,15 @@ function getData() {
                     );
                 tr.appendTo(tBody);
             });
-            people = data;
+            books = data;
         }
     });
 }
 function addItem() {
     const item = {
-        firstName: $("#add-firstName").val(),
-        lastName: $("#add-lastName").val()
+        title: $("#add-title").val(),
+        author: $("#add-author").val(),
+        genre: $("#add-genre").val()
     };
     $.ajax({
         type: "POST",
@@ -64,8 +66,9 @@ function addItem() {
         },
         success: function (result) {
             getData();
-            $("#add-firstName").val("");
-            $("#add-lastName").val("");
+            $("#add-title").val("");
+            $("#add-author").val("");
+            $("#add-genre").val("");
         }
     });
 }
@@ -79,10 +82,11 @@ function deleteItem(id) {
     });
 }
 function editItem(id) {
-    $.each(people, function (key, item) {
+    $.each(books, function (key, item) {
         if (item.id === id) {
-            $("#edit-firstName").val(item.firstName);
-            $("#edit-lastName").val(item.lastName);
+            $("#edit-title").val(item.title);
+            $("#edit-author").val(item.author);
+            $("#edit-genre").val(item.genre);
             $("#edit-id").val(item.id);
         }
     });
@@ -90,8 +94,9 @@ function editItem(id) {
 }
 $(".my-form").on("submit", function () {
     const item = {
-        firstName: $("#edit-firstName").val(),
-        lastName: $("#edit-lastName").val(),
+        title: $("#edit-title").val(),
+        author: $("#edit-author").val(),
+        genre: $("#edit-genre").val(),
         id: $("#edit-id").val()
     };
     $.ajax({

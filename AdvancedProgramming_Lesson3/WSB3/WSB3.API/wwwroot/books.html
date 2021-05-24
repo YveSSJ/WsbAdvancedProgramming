@@ -1,36 +1,40 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bookstyle.css" />
     <script src="books.js"></script>
     <meta charset="UTF-8">
-    <title>Info</title>
+    <title>Library</title>
 </head>
-<body>
-    <h1>List of people</h1>
-    <h3>Add a new person to the database</h3>
+<body class="background" >
+    <h1>List of books</h1>
+    <a href="index.html">Go back</a>
+    <h3>Add a new book to the database</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-firstName" placeholder="Name">
-        <input type="text" id="add-lastName" placeholder="Surname">
+        <input type="text" id="add-title" placeholder="Title">
+        <input type="text" id="add-author" placeholder="Author">
+        <input type="text" id="add-genre" placeholder="Genre">
         <input type="submit" value="Add">
     </form>
     <div id="spoiler">
         <h3>Edit</h3>
         <form class="my-form">
             <input type="hidden" id="edit-id">
-            <input type="text" id="edit-firstName">
-            <input type="text" id="edit-lastName">
+            <input type="text" id="edit-title">
+            <input type="text" id="edit-author">
+            <input type="text" id="edit-genre">
             <input type="submit" value="Save">
             <a onclick="closeInput()" aria-label="Close">&#10006;</a>
         </form>
     </div>
     <p id="counter"></p>
-    <table>
+    <table class="customTable">
         <tr>
-            <th>Name</th>
-            <th>Surname</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
         </tr>
-        <tbody id="people"></tbody>
+        <tbody id="books"></tbody>
     </table>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

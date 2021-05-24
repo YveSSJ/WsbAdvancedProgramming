@@ -4,10 +4,11 @@
     <link rel="stylesheet" href="style.css" />
     <script src="people.js"></script>
     <meta charset="UTF-8">
-    <title>Info</title>
+    <title>People</title>
 </head>
-<body>
+<body class="background">
     <h1>List of people</h1>
+    <a href="books.html">Go to library</a>
     <h3>Add a new person to the database</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
         <input type="text" id="add-firstName" placeholder="Name">
@@ -25,7 +26,7 @@
         </form>
     </div>
     <p id="counter"></p>
-    <table>
+    <table class="customTable">
         <tr>
             <th>Name</th>
             <th>Surname</th>

@@ -23,6 +23,8 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\people\" />
+    <Folder Include="wwwroot\books\" />
   </ItemGroup>
 
 </Project>
