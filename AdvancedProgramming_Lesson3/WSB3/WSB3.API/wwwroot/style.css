@@ -8,12 +8,6 @@ input[type='submit'], button, [aria-label] {
     display: none;
 }
 
-table {
-    font-family: Arial, sans-serif;
-    border: 1px solid;
-    border-collapse: collapse;
-}
-
 th {
     background-color: #0066CC;
     color: white;
@@ -23,7 +17,7 @@ td {
     border: 1px solid;
     padding: 5px;
 }
-.background {
+.backgroundPeople {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
@@ -40,4 +34,8 @@ h1 {
     border-color: #7ea8f8;
     border-style: solid;
     color: #000000;
+}
+.backgroundBook {
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
