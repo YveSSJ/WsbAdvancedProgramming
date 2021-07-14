@@ -1,0 +1,15 @@
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\bin\Debug\net5.0\WSB4.DB.deps.json
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\bin\Debug\net5.0\WSB4.DB.dll
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\bin\Debug\net5.0\ref\WSB4.DB.dll
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\bin\Debug\net5.0\WSB4.DB.pdb
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\bin\Debug\net5.0\WSB4.Domain.dll
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\bin\Debug\net5.0\WSB4.Domain.pdb
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\obj\Debug\net5.0\WSB4.DB.csprojAssemblyReference.cache
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\obj\Debug\net5.0\WSB4.DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\obj\Debug\net5.0\WSB4.DB.AssemblyInfoInputs.cache
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\obj\Debug\net5.0\WSB4.DB.AssemblyInfo.cs
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\obj\Debug\net5.0\WSB4.DB.csproj.CoreCompileInputs.cache
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\obj\Debug\net5.0\WSB4.DB.csproj.CopyComplete
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\obj\Debug\net5.0\WSB4.DB.dll
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\obj\Debug\net5.0\ref\WSB4.DB.dll
+C:\Users\myths\Desktop\Repos\WSB4\WSB4.DB\obj\Debug\net5.0\WSB4.DB.pdb
