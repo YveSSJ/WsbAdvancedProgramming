@@ -18,6 +18,7 @@ namespace WSB3.DB
             base.OnModelCreating(builder);
             builder.Entity<PersonEntity>();
             builder.Entity<BookEntity>();
+            
         }
     }
 }

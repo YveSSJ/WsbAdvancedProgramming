@@ -1,0 +1,24 @@
+﻿@page
+@model AdvancedProgramming_Lesson4.Pages.UsersModel
+@{
+    var result = "";
+    
+    if (User.Identity.Name == "admin@email.com")
+    {
+        result = "";
+    }
+    else
+    {
+        result = "You cannot access this content";
+    }
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+     <p>@result</p>
+</body>
+</html>

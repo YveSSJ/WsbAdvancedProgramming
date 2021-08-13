@@ -14,7 +14,6 @@ C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\
 C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\WSB3\WSB3.Domain\bin\Debug\net5.0\WSB3.Domain.dll
 C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\WSB3\WSB3.Domain\bin\Debug\net5.0\ref\WSB3.Domain.dll
 C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\WSB3\WSB3.Domain\bin\Debug\net5.0\WSB3.Domain.pdb
-C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\WSB3\WSB3.Domain\obj\Debug\net5.0\WSB3.Domain.csprojAssemblyReference.cache
 C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\WSB3\WSB3.Domain\obj\Debug\net5.0\WSB3.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\WSB3\WSB3.Domain\obj\Debug\net5.0\WSB3.Domain.AssemblyInfoInputs.cache
 C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\WSB3\WSB3.Domain\obj\Debug\net5.0\WSB3.Domain.AssemblyInfo.cs
@@ -22,3 +21,4 @@ C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\
 C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\WSB3\WSB3.Domain\obj\Debug\net5.0\WSB3.Domain.dll
 C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\WSB3\WSB3.Domain\obj\Debug\net5.0\ref\WSB3.Domain.dll
 C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\WSB3\WSB3.Domain\obj\Debug\net5.0\WSB3.Domain.pdb
+C:\Users\myths\Desktop\Repos\WsbAdvancedProgramming\AdvancedProgramming_Lesson3\WSB3\WSB3.Domain\obj\Debug\net5.0\WSB3.Domain.csproj.AssemblyReference.cache
