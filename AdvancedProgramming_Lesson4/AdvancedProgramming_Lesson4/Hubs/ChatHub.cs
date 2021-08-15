@@ -16,10 +16,20 @@ namespace AdvancedProgramming_Lesson4.Hubs
         }
         public async Task SendMessage(string user, string message)
         {
-            var chatMessage = new ChatMessage(user, message);
-            _context.Add(chatMessage);
-            await _context.SaveChangesAsync();
             await Clients.All.SendAsync("ReceiveMessage", user, message);
+            var chatMessage = new ChatMessage();
+            if (Context.User.Identity.IsAuthenticated)
+            {
+                chatMessage.User = Context.User.Identity.Name;
+            }
+            else
+            {
+                chatMessage.User = user;
+            }
+            chatMessage.Message = message;
+
+            _context.Messages.Add(chatMessage);
+            await _context.SaveChangesAsync();
         }
 
     }
